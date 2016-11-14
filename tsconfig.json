@@ -1,0 +1,13 @@
+{
+  "compilerOptions":{
+    "target":"es6",
+    "module":"amd",
+    "declaration": true,
+    "sourceMap": true,
+    "outFile": "index.js",
+    "watch": true
+  },
+  "include":[
+    "src/*.ts"
+  ]
+}
