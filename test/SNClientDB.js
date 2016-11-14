@@ -54,7 +54,6 @@ describe('SNClientDB', () => {
         instance1.notes.getAll(
           (data) => {
             expect(Array.isArray(data)).toBeTruthy();
-            fail();
             done();
           }, (error) => {
             console.log('error:', error)
